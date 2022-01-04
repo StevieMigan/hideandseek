@@ -1,5 +1,8 @@
 from random import randint
 
+player1_score = []
+player2_score = []
+
 print("""**********************************************************************
 Hello! Welcome to Hide & Seek!
 Hide & Seek is a logic-based game built entirely in Python.
@@ -15,16 +18,26 @@ print("Hi " + player_name + ", let's play Hide & Seek!\n")
 print(player_name,"- Here's where your team are hiding!\n")
 
 print("   0  1  2  3  4  ")
-for i in range(5):
-    print(i, " - " * 5)
+
+grid = []
+for x in range(5):
+    print(x, " - " * 5)
+
 
 print("\n")
 print("Player two - Where are they hiding? ;)")
 print("\n")
 
 print("   0  1  2  3  4  ")
+
+grid2 = []
 for i in range(5):
     print(i, " - " * 5)
+  
+guess = input("First, please guess a row: ")
+
+
+
 
 
 
