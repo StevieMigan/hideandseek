@@ -1,3 +1,6 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+print("**********************************************************************")
+print("Hello! Welcome to Hide & Seek!")
+print("Hide & Seek is a logic-based game built entirely in Python.")
+print("**********************************************************************")
+player_name = input("Firstly, what is your name?: ")
+print("Hi " + player_name + ", let's play Hide & Seek!")
